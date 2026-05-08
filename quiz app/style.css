@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #1e3a8a, #0f172a);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  text-align: center;
+}
+
+select, button {
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  border-radius: 6px;
+  border: none;
+}
+
+.answer-btn {
+  display: block;
+  margin: 8px 0;
+  padding: 10px;
+  background: #38bdf8;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.answer-btn:hover {
+  background: #0ea5e9;
+}
